@@ -28,17 +28,16 @@ build/Release
 node_modules
 
 # Optional npm cache directory
+/public/index_design.html
 .npm
 
 # Optional REPL history
 .node_repl_history
 
 .DS_STORE
-node_modules
 *~
 *.pyc
 static
-.grunt
 _SpecRunner.html
 __benchmarks__
 build/
