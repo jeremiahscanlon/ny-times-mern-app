@@ -1,8 +1,11 @@
 var React = require('react');
 
 var Main = require('../components/Main');
-var Home = require('../components/Home');
 var Saved = require('../components/Saved');
+var Search = require('../components/Search');
+
+var Results = require('../components/Search/Results');
+var Query = require('../components/Search/Query');
 
 
 var Router = require('react-router');
@@ -14,6 +17,6 @@ var IndexRoute = Router.IndexRoute;
 module.exports=(
     <Route path="/" component={Main} >
         <Route path='/saved' component={Saved} />
-        <IndexRoute component={Home} />
+        <IndexRoute component={Search} />
     </Route>
 );
