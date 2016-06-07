@@ -25853,6 +25853,7 @@
 
 	var Main = __webpack_require__(230);
 	var Home = __webpack_require__(231);
+	var Saved = __webpack_require__(232);
 
 	var Router = __webpack_require__(168);
 	var Route = Router.Route;
@@ -25862,6 +25863,7 @@
 	module.exports = React.createElement(
 	    Route,
 	    { path: '/', component: Main },
+	    React.createElement(Route, { path: '/saved', component: Saved }),
 	    React.createElement(IndexRoute, { component: Home })
 	);
 
@@ -26278,6 +26280,240 @@
 
 	// Exporting the component effectively means we can deploy the component in any other file.
 	module.exports = Home;
+
+/***/ },
+/* 232 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	var React = __webpack_require__(1);
+
+	// Here we created the home component
+	var Saved = React.createClass({
+	    displayName: "Saved",
+
+	    render: function render() {
+	        return React.createElement(
+	            "div",
+	            { className: "row" },
+	            React.createElement(
+	                "div",
+	                { className: "col-lg-12" },
+	                React.createElement(
+	                    "div",
+	                    { className: "panel panel-primary" },
+	                    React.createElement(
+	                        "div",
+	                        { className: "panel-heading" },
+	                        React.createElement(
+	                            "h1",
+	                            { className: "panel-title" },
+	                            React.createElement(
+	                                "strong",
+	                                null,
+	                                React.createElement("i", { className: "fa fa-list-alt" }),
+	                                "  Saved Items"
+	                            )
+	                        )
+	                    ),
+	                    React.createElement(
+	                        "div",
+	                        { className: "panel-body" },
+	                        React.createElement(
+	                            "ul",
+	                            { className: "list-group" },
+	                            React.createElement(
+	                                "li",
+	                                { className: "list-group-item" },
+	                                React.createElement(
+	                                    "h3",
+	                                    null,
+	                                    React.createElement(
+	                                        "span",
+	                                        null,
+	                                        React.createElement(
+	                                            "em",
+	                                            null,
+	                                            "Aliens Invade Paris"
+	                                        )
+	                                    ),
+	                                    React.createElement(
+	                                        "span",
+	                                        { className: "btn-group pull-right" },
+	                                        React.createElement(
+	                                            "button",
+	                                            { className: "btn btn-default " },
+	                                            "View Article"
+	                                        ),
+	                                        React.createElement(
+	                                            "button",
+	                                            { className: "btn btn-primary" },
+	                                            "Save"
+	                                        )
+	                                    )
+	                                ),
+	                                React.createElement(
+	                                    "p",
+	                                    null,
+	                                    "Date Published: 03/15/16"
+	                                )
+	                            ),
+	                            React.createElement(
+	                                "li",
+	                                { className: "list-group-item" },
+	                                React.createElement(
+	                                    "h3",
+	                                    null,
+	                                    React.createElement(
+	                                        "span",
+	                                        null,
+	                                        React.createElement(
+	                                            "em",
+	                                            null,
+	                                            "Obama Gives Commencement Speech"
+	                                        )
+	                                    ),
+	                                    React.createElement(
+	                                        "span",
+	                                        { className: "btn-group pull-right" },
+	                                        React.createElement(
+	                                            "button",
+	                                            { className: "btn btn-default " },
+	                                            "View Article"
+	                                        ),
+	                                        React.createElement(
+	                                            "button",
+	                                            { className: "btn btn-primary" },
+	                                            "Save"
+	                                        )
+	                                    )
+	                                ),
+	                                React.createElement(
+	                                    "p",
+	                                    null,
+	                                    "Date Published: 03/15/16"
+	                                )
+	                            ),
+	                            React.createElement(
+	                                "li",
+	                                { className: "list-group-item" },
+	                                React.createElement(
+	                                    "h3",
+	                                    null,
+	                                    React.createElement(
+	                                        "span",
+	                                        null,
+	                                        React.createElement(
+	                                            "em",
+	                                            null,
+	                                            "AIDS is Cured!"
+	                                        )
+	                                    ),
+	                                    React.createElement(
+	                                        "span",
+	                                        { className: "btn-group pull-right" },
+	                                        React.createElement(
+	                                            "button",
+	                                            { className: "btn btn-default " },
+	                                            "View Article"
+	                                        ),
+	                                        React.createElement(
+	                                            "button",
+	                                            { className: "btn btn-primary" },
+	                                            "Save"
+	                                        )
+	                                    )
+	                                ),
+	                                React.createElement(
+	                                    "p",
+	                                    null,
+	                                    "Date Published: 03/15/16"
+	                                )
+	                            ),
+	                            React.createElement(
+	                                "li",
+	                                { className: "list-group-item" },
+	                                React.createElement(
+	                                    "h3",
+	                                    null,
+	                                    React.createElement(
+	                                        "span",
+	                                        null,
+	                                        React.createElement(
+	                                            "em",
+	                                            null,
+	                                            "Knicks Win Championship"
+	                                        )
+	                                    ),
+	                                    React.createElement(
+	                                        "span",
+	                                        { className: "btn-group pull-right" },
+	                                        React.createElement(
+	                                            "button",
+	                                            { className: "btn btn-default " },
+	                                            "View Article"
+	                                        ),
+	                                        React.createElement(
+	                                            "button",
+	                                            { className: "btn btn-primary" },
+	                                            "Save"
+	                                        )
+	                                    )
+	                                ),
+	                                React.createElement(
+	                                    "p",
+	                                    null,
+	                                    "Date Published: 03/15/16"
+	                                )
+	                            ),
+	                            React.createElement(
+	                                "li",
+	                                { className: "list-group-item" },
+	                                React.createElement(
+	                                    "h3",
+	                                    null,
+	                                    React.createElement(
+	                                        "span",
+	                                        null,
+	                                        React.createElement(
+	                                            "em",
+	                                            null,
+	                                            "Mud: The New Superfood?"
+	                                        )
+	                                    ),
+	                                    React.createElement(
+	                                        "span",
+	                                        { className: "btn-group pull-right" },
+	                                        React.createElement(
+	                                            "button",
+	                                            { className: "btn btn-default " },
+	                                            "View Article"
+	                                        ),
+	                                        React.createElement(
+	                                            "button",
+	                                            { className: "btn btn-primary" },
+	                                            "Save"
+	                                        )
+	                                    )
+	                                ),
+	                                React.createElement(
+	                                    "p",
+	                                    null,
+	                                    "Date Published: 03/15/16"
+	                                )
+	                            )
+	                        )
+	                    )
+	                )
+	            )
+	        );
+	    }
+
+	});
+
+	// Exporting the component effectively means we can deploy the component in any other file.
+	module.exports = Saved;
 
 /***/ }
 /******/ ]);
