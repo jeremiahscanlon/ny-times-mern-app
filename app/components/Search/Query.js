@@ -2,6 +2,7 @@ var React = require('react');
 
 // Here we created the home component
 var Query = React.createClass({
+    
     render: function(){
         return(
             <div className="col-lg-12">
