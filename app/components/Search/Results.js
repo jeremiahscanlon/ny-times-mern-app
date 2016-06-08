@@ -5,7 +5,7 @@ var Results = React.createClass({
     render: function(){
         var results = this.props.results.map(function(result, index){
             return(
-                <li className="list-group-item">
+                <li className="list-group-item" index={index}>
                     <h3>
                         <span><em>{result.headline.main}</em></span>
                         <span className="btn-group pull-right" >
