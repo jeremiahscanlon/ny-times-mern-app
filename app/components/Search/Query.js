@@ -42,8 +42,6 @@ var Query = React.createClass({
             begin: begin,
             end: end
         };
-        console.log('in query');
-        console.log(searchData);
         this.props.onUpdate(searchData);
     }
 

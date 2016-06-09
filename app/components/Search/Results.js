@@ -3,9 +3,9 @@ var React = require('react');
 // Here we created the home component
 var Results = React.createClass({
     render: function(){
-        var results = this.props.results.map(function(result, index){
+        var results = this.props.results.map(function(result, i){
             return(
-                <li className="list-group-item" index={index}>
+                <li className="list-group-item" key={i}>
                     <h3>
                         <span><em>{result.headline.main}</em></span>
                         <span className="btn-group pull-right" >

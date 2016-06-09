@@ -39,8 +39,6 @@ var Search = React.createClass({
         )
     },
     onUpdate:function (searchData) {
-        console.log('in search');
-        console.log(searchData);
         helpers.search(searchData)
             .then(function(data) {
                 this.setState({
