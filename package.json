@@ -2,8 +2,9 @@
   "name": "ny-times-mern-app",
   "version": "1.0.0",
   "description": "web app to search NY Times API with a front end using react and bootstrap",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/jeremiahscanlon/ny-times-mern-app#readme",
   "dependencies": {
     "axios": "^0.12.0",
+    "express": "^4.13.4",
     "history": "^3.0.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
